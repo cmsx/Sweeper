@@ -4,7 +4,7 @@
   "description": "",
   "main": "sweep.js",
   "scripts": {
-    "preinstall": "cp -r -n sample/ .",
+    "preinstall": "cp -r -n sample/ . && cp -n sample/.env .env",
     "start": "node --env-file .env ./sweep.js 1 ",
     "test": "node --env-file .env ./sweep.js 0"
   },
