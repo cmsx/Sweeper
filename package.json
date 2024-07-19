@@ -1,0 +1,19 @@
+{
+  "name": "sweeper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "sweep.js",
+  "scripts": {
+    "preinstall": "cp -r -n sample/ .",
+    "start": "node --env-file .env ./sweep.js 1 ",
+    "test": "node --env-file .env ./sweep.js 0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "console-stamp": "^3.1.2",
+    "ethers": "^6.13.1",
+    "lodash": "^4.17.21"
+  }
+}
